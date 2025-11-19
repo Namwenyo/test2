@@ -165,7 +165,7 @@ def simple_query_counter():
     return query_count, 1
 
 def main():
-    print("🧪 Blogging App - Eager vs Lazy Loading Demonstration")
+    print(" Blogging App - Eager vs Lazy Loading Demonstration")
     print("="*60)
     
     # Seed the database
@@ -192,7 +192,7 @@ def main():
     print(f"Time improvement: {lazy_time - eager_time:.4f} seconds")
     
     print("\n" + "="*60)
-    print("💡 KEY INSIGHTS:")
+    print(" KEY INSIGHTS:")
     print("="*60)
     print("1. LAZY LOADING causes N+1 query problem:")
     print("   - 1 query to get authors + N queries to get posts for each author")
