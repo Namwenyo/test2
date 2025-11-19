@@ -21,7 +21,7 @@ Both queries were analyzed using EXPLAIN ANALYZE to compare performance.
 
 **Reflection:**
 
-B-tree indexes are preferred for range and sorted lookups (e.g., names, grades), while hash indexes are ideal for exact-match lookups such as email addresses.
+B-tree indexes are preferred for range and sorted lookups (e.g., names, grades), while hash indexes are ideal for exact match lookups such as email addresses.
 
 **Question 2: Migration Workflow with Alembic**
 
@@ -37,7 +37,7 @@ A script was created to insert 3 books with their published dates and query all 
 
 **Note:**
 
-Migration workflows are crucial in production applications because they allow safe, version-controlled schema changes without losing existing data or breaking the application.
+Migration workflows are crucial in production applications because they allow safe, version controlled schema changes without losing existing data or breaking the application.
 
 **Question 3: Eager Loading with Relationships**
 
@@ -55,8 +55,8 @@ A one-to-many relationship was established between Author and Post.
 
 Two queries were tested:
 
-Lazy loading – fetches posts per author as needed (multiple queries)
+Lazy loading: fetches posts per author as needed (multiple queries)
 
-Eager loading (joinedload) – fetches all authors and posts in one query.
+Eager loading (joinedload): fetches all authors and posts in one query.
 
 The number of SQL queries executed was printed and compared.
