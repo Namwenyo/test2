@@ -1,5 +1,5 @@
 This project was made for Database programming(CMP3872) prctical test 2.
-below is what was it all about:
+
 
 **Question 1: Indexing Strategies (B-trees vs Hash Indexes)**
 
